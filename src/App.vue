@@ -1,5 +1,5 @@
 <template>
-  <E06ParentComponent />
+  <E09CompositionApi2 />
 </template>
 
 <script lang="ts">
@@ -9,12 +9,15 @@ import { defineComponent } from "vue";
 //import E03Binding from "@/components/example1/E-03-binding.vue";
 //import E04Directives from "@/components/example2/E-04-directives.vue";
 //import E05ParentComponent from "@/components/example3/ParentComponent.vue";
-import E06ParentComponent from "@/components/example4/ParentComponent.vue";
+//import E06ParentComponent from "@/components/example4/ParentComponent.vue";
+//import E07OptionsApi from "@/components/example5/E-07-Options-API.vue";
+//import E08CompositionApi from "@/components/example5/E-08-composition-api.vue";
+import E09CompositionApi2 from "@/components/example5/E-09-composition-API2.vue";
 
 export default defineComponent({
   name: "App",
   components: {
-    E06ParentComponent,
+    E09CompositionApi2,
   },
 });
 </script>
