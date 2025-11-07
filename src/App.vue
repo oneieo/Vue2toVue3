@@ -1,10 +1,10 @@
 <template>
-  <E12RefComponent />
+  <E01Instance />
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
-//import E01Instance from "@/components/example1/E-01-instance.vue";
+import E01Instance from "@/components/example1/E-01-instance.vue";
 //import E02Reactive from "@/components/example1/E-02-reactive.vue";
 //import E03Binding from "@/components/example1/E-03-binding.vue";
 //import E04Directives from "@/components/example2/E-04-directives.vue";
@@ -15,12 +15,12 @@ import { defineComponent } from "vue";
 //import E09CompositionApi2 from "@/components/example5/E-09-composition-API2.vue";
 //import E10Ref from "@/components/example6/E-10-ref.vue";
 //import E11Reactive from "@/components/example6/E-11-reactive.vue";
-import E12RefComponent from "@/components/example6/E-12-ref-component.vue";
+//import E12RefComponent from "@/components/example6/E-12-ref-component.vue";
 
 export default defineComponent({
   name: "App",
   components: {
-    E12RefComponent,
+    E01Instance,
   },
 });
 </script>

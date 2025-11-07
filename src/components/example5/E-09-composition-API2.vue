@@ -64,12 +64,6 @@ onUnmounted(() => console.log('unmounted hook'));
   </div>
 </template> -->
 
-<script>
-export default {
-  name: "E09CompositionApi",
-};
-</script>
-
 <script setup>
 import {
   ref,
