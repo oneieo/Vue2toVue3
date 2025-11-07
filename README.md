@@ -34,18 +34,20 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### E-10
 
-script setup 사용: export default와 setup() 함수 제거
-return 문 제거: script setup에서는 최상위 변수와 함수가 자동으로 템플릿에 노출됨
+script setup 사용: export default와 setup() 함수 제거 </br>
+return 문 제거: script setup에서는 최상위 변수와 함수가 자동으로 템플릿에 노출됨 </br>
 name 속성 제거: 필요시 별도 script 블록으로 추가 가능
 
 ### E-11
 
-script setup 사용: export default와 setup() 함수 제거
-return 문 제거: script setup에서는 최상위 변수와 함수가 자동으로 템플릿에 노출됨
+script setup 사용: export default와 setup() 함수 제거</br>
+return 문 제거: script setup에서는 최상위 변수와 함수가 자동으로 템플릿에 노출됨</br>
 name 속성 제거: 컴포넌트 이름이 필요하면 별도 script 블록으로 추가 가능
 
 ### E-12
 
-script setup 사용: export default와 setup() 함수 제거
-return 문 제거: script setup에서는 최상위 변수와 함수가 자동으로 템플릿에 노출됨
+![E-12 동작화면](./e-12.png)
+
+script setup 사용: export default와 setup() 함수 제거</br>
+return 문 제거: script setup에서는 최상위 변수와 함수가 자동으로 템플릿에 노출됨</br>
 name 속성 제거: 컴포넌트 이름이 필요하면 별도 script 블록으로 추가 가능
