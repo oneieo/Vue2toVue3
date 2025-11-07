@@ -46,7 +46,7 @@ name 속성 제거: 컴포넌트 이름이 필요하면 별도 script 블록으�
 
 ### E-12
 
-![E-12 스크린샷](./e-12.png)
+![E-12 스크린샷](./public/e-12.png)
 
 script setup 사용: export default와 setup() 함수 제거</br>
 return 문 제거: script setup에서는 최상위 변수와 함수가 자동으로 템플릿에 노출됨</br>
